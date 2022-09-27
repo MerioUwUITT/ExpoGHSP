@@ -3,7 +3,8 @@
  ## Definición
  Los NeoPixel fueron popularizados por la empresa Adafruit, son diodos LED con un microcontrolador  integrado  basados  en  la  norma  WS2812. Permiten conectarse en cascada, utilizando un protocolo de tipo “one wire”, y ser  fácilmente  comandados  por  un  microcontrolador  como  ser Arduino. De  esta manera, y  al estar conectados uno consiguientemente del otro,  cada uno de ellos tendrá un número de orden, correspondiente  a su ubicación dentro de la cadena.
  
-![](neopixel1.png)
+
+![FD11FF93-AB5E-469D-A6F1-9CDB75DAD1BB](https://user-images.githubusercontent.com/79481900/192405491-299c04d0-20dc-42fd-97d1-08d6a236008f.jpeg)
 
 ## Ventajas en comparación a los Leds tradicionales
  Los leds Neopixeltiene  muchas  ventajas  en  comparación  a  los  leds  tradicionales.  Por  una parte,  permite  al  microcontrolador,  comandar  a  toda  la  cadena  de  leds  utilizando  un  solo cable  de  datos,  lo  cual,  sumando  a  los  dos  de  alimentación,  hace  un  total  de  3  cables  para comandar  una  cantidad  de  leds  virtualmente  ilimitada,  restringida  únicamente  por  la  fuente de alimentación. Adicionalmente, el hecho de que cada led tenga un chip controlador incluido permite que la información de estado enviada por el microcontrolador(color e intensidad) se mantenga  hasta  que  arribe  una  nueva  orden  al  led  en  cuestión.  Esto  trae  aparejado  el beneficio de disminuir la cantidad de procesamiento realizado por el procesador, ya que con las viejas tecnologías éste debía estar actualizando constantemente el estado e intensidad de cada uno de los leds.
