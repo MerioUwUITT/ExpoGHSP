@@ -7,13 +7,15 @@
 ![FD11FF93-AB5E-469D-A6F1-9CDB75DAD1BB](https://user-images.githubusercontent.com/79481900/192405491-299c04d0-20dc-42fd-97d1-08d6a236008f.jpeg)
 
 ## Ventajas en comparación a los Leds tradicionales
- Los leds Neopixeltiene  muchas  ventajas  en  comparación  a  los  leds  tradicionales.  Por  una parte,  permite  al  microcontrolador,  comandar  a  toda  la  cadena  de  leds  utilizando  un  solo cable  de  datos,  lo  cual,  sumando  a  los  dos  de  alimentación,  hace  un  total  de  3  cables  para comandar  una  cantidad  de  leds  virtualmente  ilimitada,  restringida  únicamente  por  la  fuente de alimentación. Adicionalmente, el hecho de que cada led tenga un chip controlador incluido permite que la información de estado enviada por el microcontrolador(color e intensidad) se mantenga  hasta  que  arribe  una  nueva  orden  al  led  en  cuestión.  Esto  trae  aparejado  el beneficio de disminuir la cantidad de procesamiento realizado por el procesador, ya que con las viejas tecnologías éste debía estar actualizando constantemente el estado e intensidad de cada uno de los leds.
+ Los leds Neopixeltiene  muchas  ventajas  en  comparación  a  los  leds  tradicionales.  Por  una parte,  permite  al  microcontrolador,  comandar  a  toda  la  cadena  de  leds  utilizando  un  solo cable  de  datos,  lo  cual,  sumando  a  los  dos  de  alimentación,  hace  un  total  de  3  cables  para comandar  una  cantidad  de  leds  virtualmente  ilimitada,  restringida  únicamente  por  la  fuente de alimentación. 
  
  ![](neopixel2.png)
  
  ## Modo de uso
- Para  poder  controlar  estos  leds  desde Arduino,  pueden  utilizarse  dos  librerías: Adafruit Neopixel o FastLed. Si bien, con ambas se pueden realizar las mismas tareas, como ser, prender un led en particular, de un determinado color y con  una  intensidad  en  especial;  cada una lo  implementa  de  forma  totalmente  diferente. Como se puede encontrar en infinidad de blogsdedicados a estudiar y solventar dudas sobre estos  tipos  de  leds,  como  por  ejemplo  el  blog  de Dave(Parts  Not  Included)  en  su  post “FastLED  vs.Adafruit_NeoPixel”  menciona  las  diferencias  entre ambos, caracterizando al FastLedcomo mejor implementación que su contraparte.Asimismo, Mark Kriegsman. en su perfil de Google+ demuestra cómo realizar la misma animación con cada una de las librerías, dejando en claro, que la FastLedes ampliamente superior no sólo en cuanto a sencillez de codificación sino también a la cantidad de información que debe enviar cada una para llevar a cabo dicha animación.
- 
+ Para  poder  controlar  estos  leds  desde Arduino,  pueden  utilizarse  dos  librerías: Adafruit Neopixel o FastLed. Si bien, con ambas se pueden realizar las mismas tareas, como ser, prender un led en particular, de un determinado color y con  una  intensidad  en  especial;  cada una lo  implementa  de  forma  totalmente  diferente. 
+
+![neo_pixel_kit_02](https://user-images.githubusercontent.com/79481900/192660669-27509fd1-31d4-4bde-9e79-6b1d2a0469ae.jpg)
+
 [Link](https://wokwi.com/projects/343361429708997202)
 
 [Link 2](https://wokwi.com/projects/309799143305380416)
